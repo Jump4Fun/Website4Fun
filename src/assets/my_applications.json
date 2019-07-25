@@ -12,11 +12,11 @@
             "Burned Calories",
             "Distance"
         ],
-        "imageUrl":"/assets/material_one_image.png",
+        "imageUrl":"/Website4Fun/assets/material_one_image.png",
         "textColor":"#FFF",
         "backgroundColor":"#111",
         "link":"https://gallery.fitbit.com/details/afaa0319-99a5-4b7d-8205-7c391e6e463d",
-        "bannerUrl":"/assets/ic_works_with_fitbit.svg"
+        "bannerUrl":"/Website4Fun/assets/ic_works_with_fitbit.svg"
     },
     {
         "name":"Watchlist",
@@ -30,7 +30,7 @@
             "View Movie and Actor Details",
             "Light and Dark Theme"
         ],
-        "imageUrl":"/assets/watchlist_image.png",
+        "imageUrl":"/Website4Fun/assets/watchlist_image.png",
         "textColor":"#FFF",
         "backgroundColor":"#0576D6",
         "link":"/",
