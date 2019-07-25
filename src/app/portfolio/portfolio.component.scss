@@ -1,0 +1,22 @@
+
+
+.banner {
+    width: inherit;
+}
+
+.app-card {
+    border-radius: 2rem;
+    -webkit-box-shadow: 9px 10px 19px -10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 9px 10px 19px -10px rgba(0,0,0,0.4);
+    box-shadow: 9px 10px 19px -10px rgba(0,0,0,0.4);
+}
+
+
+@media (max-width: 575.98px) { 
+    .app-card {
+        border-radius: 0rem;
+        -webkit-box-shadow: 9px 10px 19px -10px rgba(0,0,0,0.0);
+        -moz-box-shadow: 9px 10px 19px -10px rgba(0,0,0,0.0);
+        box-shadow: 9px 10px 19px -10px rgba(0,0,0,0.0);
+    }
+ }

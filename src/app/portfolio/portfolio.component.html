@@ -1,0 +1,46 @@
+<div class="container-fluid p-4">
+    <div class="container">
+        <h2>Introduction</h2>
+        <p>
+            Hello and welcome to my portfolio! This is a showcase of every app I have ever published. Feel free to
+            scroll
+            through here and maybe you'll try out some of the apps I've created.
+        </p>
+    </div>
+</div>
+
+
+<div class="container p-4 mt-4 app-card" *ngFor="let app of apps" [style.background-color]="app.backgroundColor"
+    [style.color]="app.textColor">
+    <div class="row p-4">
+        <div class="col-sm-3 m-2">
+            <img [src]="app.imageUrl" class="banner">
+        </div>
+
+        <div class="col-sm-5 mt-4 m-2">
+            <h2><b>{{app.name}}</b></h2>
+            <p class="mt-4 mb-0">
+                <b>Platform: </b>{{app.platform}}<br>
+                <b>Description: </b>{{app.description}}<br>
+                <b>Features:</b>
+            </p>
+            <ul>
+                <li *ngFor="let feature of app.features">{{feature}}</li>
+            </ul>
+        </div>
+        
+        <a class="col-sm-3 mt-4 m-2" [href]="app.link">
+            <img [src]="app.bannerUrl" class="banner">
+        </a>
+    </div>
+</div>
+
+<div class="container-fluid p-4">
+    <div class="container">
+        <p>
+            Google Play and the Google Play logo are trademarks of Google LLC.
+            Fitbit is registered trademark of Fitbit, Inc. and/or its affiliates in the United States and other
+            countries
+        </p>
+    </div>
+</div>
