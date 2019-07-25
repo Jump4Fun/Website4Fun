@@ -9,5 +9,12 @@ branches:
 before_script:
   - npm install -g @angular/cli
 script:
-- ng lint
-- ng build --prod --base-href https://t-palmer.github.io/travis-demo/
+- ng build --prod --base-href https://jump4fun.github.io/website4fun/
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/website4fun
+  on:
+    branch: master
