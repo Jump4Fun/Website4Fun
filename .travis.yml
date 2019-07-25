@@ -2,9 +2,12 @@ language: node_js
 node_js:
   - "9"
 dist: trusty
-sudo: requiredbranches:
+sudo: required
+branches:
   only:
-  - masterbefore_script:
-  - npm install -g @angular/cliscript:
+  - master
+before_script:
+  - npm install -g @angular/cli
+script:
 - ng lint
-- ng build --prod --base-href https://jump4fun.github.io/website4fun/
+- ng build --prod --base-href https://t-palmer.github.io/travis-demo/
