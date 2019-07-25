@@ -9,7 +9,7 @@ branches:
 before_script:
   - npm install -g @angular/cli
 script:
-- ng build --prod --base-href https://jump4fun.github.io/website4fun/
+- ng build --prod --base-href https://jump4fun.github.io/Website4Fun/
 
 deploy:
   provider: pages
