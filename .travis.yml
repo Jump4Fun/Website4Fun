@@ -10,6 +10,7 @@ before_script:
   - npm install -g @angular/cli
 script:
 - ng build --prod --base-href https://jump4fun.github.io/Website4Fun/
+- mv dist/website4fun/index.html dist/website4fun/404.html
 
 deploy:
   provider: pages
