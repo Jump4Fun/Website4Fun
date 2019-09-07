@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Website4Fun';
+  title = 'Jump4Fun';
   isScrolled = false
   navPosition = "Portfolio"
 
