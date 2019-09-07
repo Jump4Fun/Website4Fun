@@ -27,7 +27,11 @@
             </div>
 
             <div id="{{ 'collapse' + i }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">{{faq.answer}}</div>
+                <div class="card-body">
+                    <p *ngFor="let line of faq.answer">
+                        {{line}}
+                    </p>
+                </div>
             </div>
         </div>
     </div>
