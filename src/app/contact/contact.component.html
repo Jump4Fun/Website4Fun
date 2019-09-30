@@ -6,12 +6,12 @@
             It could take a couple of days until you receive an answer.
         </p>
         <div class="col-sm-4">
-            <b>E-Mail: </b>test@example.com<br>
+            <b>E-Mail: </b>support@jump4fun.dev<br>
             <b>Subject: </b>{{subjectLine}}<br><br>
             <b *ngIf="subjectLine == 'Support Request'" class="text-danger">Please state the Name of the App in the
                 Subject<br><br></b>
-            <a class="btn btn-outline-primary" style="width:inherit;"
-                href="mailto:test@example.com?subject={{subjectLine}}">Contact via E-Mail</a>
+            <a class="btn btn-primary" style="width:inherit;"
+                href="mailto:support@jump4fun.dev?subject={{subjectLine}}">Contact via E-Mail</a>
         </div>
     </div>
     <h2 class="mt-4" *ngIf="faqs.length != 0">FAQ</h2>
