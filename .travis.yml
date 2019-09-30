@@ -11,7 +11,7 @@ before_script:
 script:
 - ng build --prod --base-href /
 - cp dist/website4fun/index.html dist/website4fun/404.html
-- echo "jump4fun.dev" > dist/CNAME
+- echo "jump4fun.dev" > dist/website4fun/CNAME
 
 deploy:
   provider: pages
