@@ -5,7 +5,7 @@
             "There are a few things you can try to resolve the problem:",
             "- Make sure your phone has a Internet connection and location data is activated",
             "- The fitbit app needs to have access to your location data",
-            "- If you have an iPhone location data for the fitbit app has to be set to “always” instead of “when using the app”",
+            "- If you have an iPhone or an Android 10 device, location data for the fitbit app has to be set to “always” instead of “when using the app”",
             "- Your fitbit device needs to be connected to your phone via Bluetooth",
             "- You also have to allow the watch face to use your location data and connect to the Internet (This usually happens when you check the boxes while installing the app)",
             "- Weather is also only shown when the watch detects that it is on your body"
