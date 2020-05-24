@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
     this.selectedApp = this._Activatedroute.snapshot.paramMap.get("app");
     if (this.selectedApp != null) {
       this.selectedApp = this.selectedApp.replace("_", " ");
-      this.subjectLine = this.subjectLine + " for " + this.selectedApp
+      this.subjectLine = "Support Request for " + this.selectedApp
       this.faqs = getFAQ(this.selectedApp);
 
     }

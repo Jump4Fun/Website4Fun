@@ -10,7 +10,9 @@
             "Current Heart Rate",
             "Surise and Sunset Time",
             "Burned Calories",
-            "Distance"
+            "Distance",
+            "Two different designs",
+            "Multiple colors available"
         ],
         "imageUrl":"assets/material_one_image.png",
         "textColor":"#FFF",
@@ -19,21 +21,21 @@
         "bannerUrl":"assets/ic_works_with_fitbit.svg"
     },
     {
-        "name":"Watchlist",
-        "description":"Watchlist will help you keeping track which movies you want to watch.",
-        "platform":"Android",
+        "name":"Analogue Appointment (WiP)",
+        "description":"Analogue Appointment is productivity centered watchface. WORK IN PROGRESS",
+        "platform":"Fitbit OS",
         "features":[
-            "Add, Move and Remove Movies from your Watchlist",
-            "Search Movies",
-            "Sort Movies",
-            "Create multiple Watchlists",
-            "View Movie and Actor Details",
-            "Light and Dark Theme"
+          "Time & Date",
+          "Appointments",
+          "Temprature in Fahrenheit or Celsius",
+          "Battery percentage",
+          "Current Heart Rate",
+          "Steps"
         ],
-        "imageUrl":"assets/watchlist_image.png",
+        "imageUrl":"assets/analogue_appointment_image.png",
         "textColor":"#FFF",
-        "backgroundColor":"#0576D6",
-        "link":"https://play.google.com/store/apps/details?id=com.jump.watchlist",
-        "bannerUrl":"https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+        "backgroundColor":"#121D41",
+        "link":"#",
+        "bannerUrl":"assets/ic_works_with_fitbit.svg"
     }
 ]

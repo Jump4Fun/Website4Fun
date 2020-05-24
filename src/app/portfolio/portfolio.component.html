@@ -28,10 +28,15 @@
                 <li *ngFor="let feature of app.features">{{feature}}</li>
             </ul>
         </div>
-        
-        <a class="col-md-3 mt-4 m-2" [href]="app.link">
-            <img [src]="app.bannerUrl" class="banner">
-        </a>
+        <div class="col-md-3 mt-4 m-2">
+            <a class="w-100" [href]="app.link">
+              <img [src]="app.bannerUrl" class="banner">
+            </a>
+            <a class="btn btn-outline-primary mt-4 w-100" [routerLink]="'/contact/'+app.name.replace(' ','_')">
+              Support
+            </a>
+        </div>
+
     </div>
 </div>
 

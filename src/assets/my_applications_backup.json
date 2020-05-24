@@ -1,0 +1,18 @@
+{
+  "name":"Watchlist",
+  "description":"Watchlist will help you keeping track which movies you want to watch.",
+  "platform":"Android",
+  "features":[
+    "Add, Move and Remove Movies from your Watchlist",
+    "Search Movies",
+    "Sort Movies",
+    "Create multiple Watchlists",
+    "View Movie and Actor Details",
+    "Light and Dark Theme"
+  ],
+  "imageUrl":"assets/watchlist_image.png",
+  "textColor":"#FFF",
+  "backgroundColor":"#0576D6",
+  "link":"https://play.google.com/store/apps/details?id=com.jump.watchlist",
+  "bannerUrl":"https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+}
