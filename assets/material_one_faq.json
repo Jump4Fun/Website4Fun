@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Why is the temperature/weather not showing?",
+        "answer": [
+            "There are a few things you can try to resolve the problem:",
+            "- Make sure your phone has a Internet connection and location data is activated",
+            "- The fitbit app needs to have access to your location data",
+            "- If you have an iPhone or an Android 10 device, location data for the fitbit app has to be set to “always” instead of “when using the app”",
+            "- Your fitbit device needs to be connected to your phone via Bluetooth",
+            "- You also have to allow the watch face to use your location data and connect to the Internet (This usually happens when you check the boxes while installing the app)",
+            "- Weather is also only shown when the watch detects that it is on your body"
+        ]
+    },
+    {
+        "question": "How do I change the temperature unit to Farenheit/Celsius?",
+        "answer": [
+            "Fitbit currently links your temperature unit setting to your preferred length unit. So when it's set to miles you get Fahrenheit and when it's set to meters you get Celsius.",
+            "You can change your preferred length unit in your Fitbit Profile Settings.",
+            "After you changed the setting you have to synchronize the watch face with the Fitbit App. (It can take a couple of minutes till it changes)"
+        ]
+    },
+    {
+        "question": "Does the watch face support 12h clock scheme?",
+        "answer":[
+            "Yes, it does. The setting can be changed in your fitbit profile settings"
+        ]
+    }
+]
