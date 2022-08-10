@@ -19,23 +19,5 @@
         "backgroundColor":"#1D1D1D",
         "link":"https://gallery.fitbit.com/details/afaa0319-99a5-4b7d-8205-7c391e6e463d",
         "bannerUrl":"assets/ic_works_with_fitbit.svg"
-    },
-    {
-        "name":"Analogue Appointment (WiP)",
-        "description":"Analogue Appointment is productivity centered watchface. WORK IN PROGRESS",
-        "platform":"Fitbit OS",
-        "features":[
-          "Time & Date",
-          "Appointments",
-          "Temprature in Fahrenheit or Celsius",
-          "Battery percentage",
-          "Current Heart Rate",
-          "Steps"
-        ],
-        "imageUrl":"assets/analogue_appointment_image.png",
-        "textColor":"#FFF",
-        "backgroundColor":"#121D41",
-        "link":"#",
-        "bannerUrl":"assets/ic_works_with_fitbit.svg"
     }
 ]

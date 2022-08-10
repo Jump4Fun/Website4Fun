@@ -1,5 +1,5 @@
 <div class="container p-4">
-    <h2>Contact & Support</h2>
+    <h1>Contact & Support</h1>
     <div class="row">
         <p class="col-sm-8">
             Please check if your question has already been answered in the FAQ before you write an E-Mail.
@@ -11,30 +11,29 @@
             <b>Subject: </b>{{subjectLine}}<br><br>
             <b *ngIf="subjectLine == 'Support Request'" class="text-danger">Please state the Name of the App in the
                 Subject<br><br></b>
-            <a class="btn btn-primary" style="width:inherit;"
+            <a class="btn btn-primary w-100" style="width:inherit;"
                 href="mailto:support@jump4fun.dev?subject={{subjectLine}}">Contact via E-Mail</a>
         </div>
     </div>
     <h2 class="mt-4" *ngIf="faqs.length != 0">FAQ</h2>
-    <div class="accordion mt-4" id="accordion" *ngIf="faqs.length != 0">
-        <div class="card card-color" *ngFor="let faq of faqs; index as i">
-            <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" [attr.data-target]="'#collapse' + i"
-                        aria-expanded="true" [attr.aria-controls]="'collapse' + i">
-                        {{faq.question}}
-                    </button>
-                </h2>
-            </div>
 
-            <div id="{{ 'collapse' + i }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    <p *ngFor="let line of faq.answer">
-                        {{line}}
-                    </p>
-                </div>
-            </div>
+
+    <div class="accordion mt-4" id="acc_faq" *ngIf="faqs.length != 0">
+      <div class="accordion-item" *ngFor="let faq of faqs; index as i">
+        <h2 class="accordion-header" id="h-faq-{{ i }}">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#coll-faq-'+ i" aria-expanded="false" [attr.aria-controls]="'coll-faq-' + i">
+            {{faq.question}}
+          </button>
+        </h2>
+
+        <div id="coll-faq-{{ i }}" class="accordion-collapse collapse" [attr.aria-labelledby]="'h-faq-' + i" data-bs-parent="#acc_faq">
+          <div class="accordion-body">
+            <p *ngFor="let line of faq.answer">
+              {{line}}
+            </p>
+          </div>
         </div>
+      </div>
     </div>
 
 </div>
