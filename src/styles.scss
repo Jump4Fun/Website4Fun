@@ -8,6 +8,17 @@
     --colorTextDisabled: rgba(211, 211, 211, 0.5);
     --colorTextBorder: rgba(211, 211, 211, 0.1);
   }
+
+  .accordion {
+    --bs-accordion-color: #d3d3d3;
+    --bs-accordion-bg: #242424;
+    --bs-accordion-active-color: #d3d3d3;
+    --bs-accordion-active-bg: #102145;
+  }
+
+  .accordion-button {
+    color: #d3d3d3;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,6 +28,11 @@
     --colorTextDisabled: rgba(0, 0, 0, 0.5);
     --colorTextBorder: rgba(0, 0, 0, 0.1);
   }
+
+  .accordion {
+    --bs-accordion-color: black;
+    --bs-accordion-bg: white;
+  }
 }
 
 @media (prefers-color-scheme: no-preference) {
@@ -25,6 +41,11 @@
     --colorTextPrimary: black;
     --colorTextDisabled: rgba(0, 0, 0, 0.5);
     --colorTextBorder: rgba(0, 0, 0, 0.1);
+  }
+
+  .accordion {
+    --bs-accordion-color: black;
+    --bs-accordion-bg: white;
   }
 }
 

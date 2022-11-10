@@ -1,11 +1,12 @@
 <div class="container p-4">
-    <h1>Contact & Support</h1>
-    <div class="row">
+    <h1 class="text-center fw-bold">{{ selectedApp }} - Support</h1>
+    <!--<div class="row">
         <p class="col-sm-8">
             Please check if your question has already been answered in the FAQ before you write an E-Mail.
             If you can, please write your E-Mail in english or german, otherwise I'll try my best to translate the E-Mail!
             It could take a couple of days until you receive an answer.
         </p>
+
         <div class="col-sm-4">
             <b>E-Mail: </b>support@jump4fun.dev<br>
             <b>Subject: </b>{{subjectLine}}<br><br>
@@ -14,21 +15,21 @@
             <a class="btn btn-primary w-100" style="width:inherit;"
                 href="mailto:support@jump4fun.dev?subject={{subjectLine}}">Contact via E-Mail</a>
         </div>
-    </div>
+    </div>-->
     <h2 class="mt-4" *ngIf="faqs.length != 0">FAQ</h2>
 
 
-    <div class="accordion mt-4" id="acc_faq" *ngIf="faqs.length != 0">
+    <div class="accordion mt-1" id="acc_faq" *ngIf="faqs.length != 0">
       <div class="accordion-item" *ngFor="let faq of faqs; index as i">
         <h2 class="accordion-header" id="h-faq-{{ i }}">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#coll-faq-'+ i" aria-expanded="false" [attr.aria-controls]="'coll-faq-' + i">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#coll-faq-'+ i" aria-expanded="false" [attr.aria-controls]="'coll-faq-' + i">
             {{faq.question}}
           </button>
         </h2>
 
         <div id="coll-faq-{{ i }}" class="accordion-collapse collapse" [attr.aria-labelledby]="'h-faq-' + i" data-bs-parent="#acc_faq">
           <div class="accordion-body">
-            <p *ngFor="let line of faq.answer">
+            <p class="m-0" *ngFor="let line of faq.answer">
               {{line}}
             </p>
           </div>

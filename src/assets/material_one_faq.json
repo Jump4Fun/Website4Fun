@@ -24,5 +24,18 @@
         "answer":[
             "Yes, it does. The setting can be changed in your fitbit profile settings"
         ]
+    },
+    {
+        "question": "Does the watch face support the Fitbit Versa 3/Fitbit Sense?",
+        "answer":[
+            "No, it does not. The watch face was built for the original Fitbit Versa, Versa Lite and Versa 2"
+        ]
+    },
+    {
+      "question": "How do I change the watch face settings?",
+      "answer":[
+        "To get to the watchface settings please open the fitbit app on your smartphone, then press on your profile picture in the top left corner, then press on your device (probably 'Versa'), then press on watchfaces. ",
+        "Now you should see the currently installed watchface and three dots in the top right corner. After you pressed on the three dots, press the 'Settings' button at the bottom of the screen. Now the screen should show the watchface settings."
+      ]
     }
 ]
