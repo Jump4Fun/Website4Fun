@@ -18,8 +18,8 @@ export class AppComponent {
       if(this.router.url == "/"){
         this.navPosition = "Portfolio"
       }
-      if(this.router.url.startsWith("/contact")){
-        this.navPosition = "Contact"
+      if(this.router.url.startsWith("/contact") || this.router.url.startsWith("/support")){
+        this.navPosition = "Support"
       }
       if(this.router.url.startsWith("/privacy_policy")){
         this.navPosition = "Privacy Policy"

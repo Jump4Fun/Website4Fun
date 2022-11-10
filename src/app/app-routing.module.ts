@@ -8,6 +8,8 @@ const routes: Routes = [
   { path: '', component: PortfolioComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'contact/:app', component: ContactComponent },
+  { path: 'support', component: ContactComponent },
+  { path: 'support/:app', component: ContactComponent },
   { path: 'privacy_policy', component: PrivacyPolicyComponent }
 
 ];
